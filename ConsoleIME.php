@@ -50,7 +50,7 @@ class ConsoleIME extends PluginBase implements Listener{
     $a = new PluginCommand("콘솔", $this);
     $a->setPermission("op");
     $a->setUsage("/콘솔");
-    $a->setDescription("게임내에서 콘솔 명령를 사용합니다");
+    $a->setDescription("인게임에서 콘솔 명령를 사용합니다");
     $this->getServer()->getCommandMap()->register($this->getDescription()->getName(), $a);
   }
   public function onCommand(CommandSender $sender, Command $command, string $label, array $array) : bool{
