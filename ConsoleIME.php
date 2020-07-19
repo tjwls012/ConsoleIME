@@ -2,14 +2,14 @@
 
 /**
  * @name ConsoleIME
- * @main securti\consoleime\ConsoleIME
- * @author ["Securti"]
+ * @main tjwls012\consoleime\ConsoleIME
+ * @author ["tjwls012"]
  * @version 0.1
  * @api 3.14.0
  * @description License : LGPL 3.0
  */
  
-namespace securti\consoleime;
+namespace tjwls012\consoleime;
  
 use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;
